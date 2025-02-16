@@ -1,0 +1,23 @@
+The Random Forest Regressor is a great choice for demand forecasting due to the following reasons:
+
+✅ Handles Non-Linearity Well
+Inventory demand often depends on complex interactions between seasonality, store, and product features.
+Random Forest captures these non-linear relationships effectively compared to linear models.
+
+✅ Robust to Outliers & Missing Data
+Demand data can have spikes, dips, and missing values.
+Unlike linear regression, Random Forest is less sensitive to outliers.
+
+✅ Feature Importance Analysis
+It provides a ranking of important features (e.g., store ID, product type, seasonality).
+Helps in understanding key drivers of demand.
+
+✅ Handles Categorical & Numerical Data
+Can work well with both numerical (sales, day, month) and categorical (store ID, product ID) data without extensive pre-processing.
+
+✅ Scalability & Performance
+Works well with large datasets and multiple predictors.
+Can be parallelized, making it efficient for production use.
+When Not to Use Random Forest?
+If the dataset is very large, training time may increase.
+If interpretability is a major concern, XGBoost or Linear Regression may be better.
